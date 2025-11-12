@@ -105,7 +105,7 @@ export default function Home() {
                 View and manage all invoices. Filter by status and search by
                 customer.
               </p>
-              <div className="text-indigo-00 dark:text-indigo-200 font-medium">
+              <div className="text-indigo-600 dark:text-indigo-200 font-medium">
                 View Invoices →
               </div>
             </Link>

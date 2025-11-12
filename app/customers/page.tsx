@@ -57,7 +57,7 @@ export default function Customers() {
                   }`}
                 >
                   {/* Front of Card */}
-                  <div className="absolute w-full h-full backface-hidden bg-white dark:from-zinc-900 dark:to-zinc-800 rounded-lg shadow-sm p-6 border border-sky-100 hover:border-sky-200 transition-all duration-300 hover:shadow-md">
+                  <div className="absolute w-full h-full backface-hidden bg-white dark:bg-linear-to-br dark:from-zinc-900 dark:to-zinc-800 rounded-lg shadow-sm p-6 border border-sky-100 hover:border-sky-200 transition-all duration-300 hover:shadow-md">
                     <div className="flex items-start justify-between mb-4">
                       <div>
                         <h2 className="text-xl font-semibold text-zinc-800 dark:text-zinc-100 mb-1">
@@ -108,7 +108,7 @@ export default function Customers() {
                   </div>
 
                   {/* Back of Card */}
-                  <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-sky-50 dark:from-zinc-800 dark:to-zinc-900 rounded-lg shadow-sm p-6 border border-sky-100">
+                  <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-sky-50 dark:bg-linear-to-br dark:from-zinc-800 dark:to-zinc-900 rounded-lg shadow-sm p-6 border border-sky-100">
                     <div className="h-full flex flex-col justify-center items-center text-center">
                       <h3 className="text-2xl font-bold text-sky-700 dark:text-violet-200 mb-4">
                         {customer.name}
